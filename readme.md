@@ -25,6 +25,7 @@ docker run \
   -s input.md \
   --css=cv.css \
   --embed-resources \
+  --metadata pagetitle="My CV" \
   -o dist/output.html
 ```
 
@@ -40,6 +41,7 @@ docker run \
   -t html \
   --css=cv.css \
   --embed-resources \
+  --metadata pagetitle="My CV" \
   --pdf-engine=weasyprint \
   -o dist/output.pdf
 ```
