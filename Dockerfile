@@ -5,7 +5,7 @@ ENV XDG_CACHE_HOME=/tmp/fontconfig-cache
 RUN apk add --no-cache \
   weasyprint \
   fontconfig \
-  ttf-dejavu 
+  font-dejavu
 
 RUN mkdir -p $XDG_CACHE_HOME && chmod 777 $XDG_CACHE_HOME
 
