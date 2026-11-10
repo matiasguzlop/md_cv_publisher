@@ -3,6 +3,10 @@
 **SRE / DevOps / Infrastructure Engineer**  
 matiasguzman@posteo.com · Based in Chile · Open to relocation to Ireland
 
+**LinkedIn:** [linkedin.com/in/matiasguzlop](https://linkedin.com/in/matiasguzlop)  
+**GitHub:** [github.com/matiasguzlop](https://github.com/matiasguzlop)  
+**Online CV:** [matiasguzlop.dev/cv/CV_Matias_Guzman.html](https://matiasguzlop.dev/cv/CV_Matias_Guzman.html)
+
 ## Professional Summary
 
 Over 9 years across startups and the public sector. I've worked on infrastructure, DevOps, CI/CD, reliability, and technical leadership. I've led initiatives to improve system performance, reduce operational risk, and establish engineering practices that help teams deliver and maintain software over the long term.
@@ -72,3 +76,4 @@ I value maintainability, clear communication, and ownership. I aim to build syst
 **Reliability & operations**: Monitoring and observability, Grafana, Prometheus
 
 **Data & asynchronous systems**: PostgreSQL, Redis, AWS SQS and Lambda, Celery, database design and management
+
