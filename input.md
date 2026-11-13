@@ -9,7 +9,9 @@ matiasguzman@posteo.com · Based in Chile · Open to relocation to Ireland
 
 ## Professional Summary
 
-Over 9 years across startups and the public sector. I've worked on infrastructure, DevOps, CI/CD, reliability, and technical leadership. I've led initiatives to improve system performance, reduce operational risk, and establish engineering practices that help teams deliver and maintain software over the long term.
+Software Engineer with over 9 years of experience across startups and the public sector, focused on infrastructure, DevOps, CI/CD, reliability, and technical leadership. I've led initiatives to improve system performance, reduce operational risk, and establish engineering practices that help teams deliver and maintain software over the long term.
+
+With a background in Electronic Engineering and hands-on IoT experience, I'm particularly interested in building reliable infrastructure for systems that interact with the physical world.
 
 I value maintainability, clear communication, and ownership. I aim to build systems that remain understandable and reliable as they evolve.
 
@@ -36,7 +38,7 @@ I value maintainability, clear communication, and ownership. I aim to build syst
 
 - Co-founded a software consultancy delivering custom solutions for industrial and commercial clients.
 - Led product planning, client communication, and technical decisions across projects.
-- Designed and operated maintainable systems for KPI monitoring, operational reporting, and workflow automation.
+- Designed and operated maintainable systems for industrial KPI monitoring, operational reporting, and workflow automation.
 - Managed architecture, infrastructure, deployments, and end-to-end delivery.
 
 ### Enerlink S.A.
@@ -51,7 +53,7 @@ I value maintainability, clear communication, and ownership. I aim to build syst
 
 **IoT & Software Engineer** · October 2020–February 2023
 
-- Led end-to-end development of IoT solutions, from embedded devices to cloud-connected platforms.
+- Led end-to-end development of IoT solutions, integrating embedded devices with cloud-connected software platforms.
 - Designed remote device management, firmware deployment, and real-time monitoring systems.
 - Guided architecture and hardware/software integration, with a focus on reliability and maintainability.
 
@@ -67,13 +69,14 @@ I value maintainability, clear communication, and ownership. I aim to build syst
 
 ## Skills
 
-**Cloud & infrastructure**: AWS, Kubernetes, Docker, Linux
+**Cloud & infrastructure:** AWS, Kubernetes, Docker, Linux
 
-**Infrastructure as Code & automation**: Terraform, Ansible, Bash, Python
+**Infrastructure as Code & automation:** Terraform, Ansible, Bash, Python
 
-**CI/CD**: GitLab CI, GitHub Actions, Jenkins
+**CI/CD:** GitLab CI, GitHub Actions, Jenkins
 
-**Reliability & operations**: Monitoring and observability, Grafana, Prometheus
+**Reliability & operations:** Monitoring and observability, Grafana, Prometheus
 
-**Data & asynchronous systems**: PostgreSQL, Redis, AWS SQS and Lambda, Celery, database design and management
+**Data & asynchronous systems:** PostgreSQL, Redis, AWS SQS and Lambda, Celery, database design and management
 
+**IoT & connected systems:** Embedded devices, device-to-cloud integration, remote monitoring, firmware deployment
