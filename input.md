@@ -53,7 +53,7 @@ I value maintainability, clear communication, and ownership. I aim to build syst
 
 **IoT & Software Engineer** · October 2020–February 2023
 
-- Led end-to-end development of IoT solutions, integrating embedded devices with cloud-connected software platforms.
+- Led end-to-end development of IoT solutions for agriculture and air quality monitoring, integrating embedded devices with cloud-connected software platforms.
 - Designed remote device management, firmware deployment, and real-time monitoring systems.
 - Guided architecture and hardware/software integration, with a focus on reliability and maintainability.
 
