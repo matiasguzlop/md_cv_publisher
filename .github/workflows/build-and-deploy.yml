@@ -48,33 +48,30 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v7
 
-      - name: Convert to HTML
+      - name: Convert to HTML and PDF
         run: |
-          docker run \
-          -w /data \
-          -v ".:/data" \
-          -u "$(id -u):$(id -g)" \
-          "$IMAGE:latest" \
-          -s input.md \
-          --css=cv.css \
-          --embed-resources \
-          --metadata pagetitle="$FILENAME" \
-          -o "dist/$FILENAME.html"
+          for variant in infra backend iot; do
+            for format in html pdf; do
+              args=()
 
-      - name: Convert to PDF
-        run: |
-          docker run \
-          -w /data \
-          -v ".:/data" \
-          -u "$(id -u):$(id -g)" \
-          "$IMAGE:latest" \
-          -s input.md \
-          -t html \
-          --css=cv.css \
-          --embed-resources \
-          --metadata pagetitle="$FILENAME" \
-          --pdf-engine=weasyprint \
-          -o "dist/$FILENAME.pdf"
+              if [[ "$format" == "pdf" ]]; then
+                args+=(--pdf-engine=weasyprint)
+              fi
+
+              docker run \
+                -w /data \
+                -v ".:/data" \
+                -u "$(id -u):$(id -g)" \
+                "$IMAGE:latest" \
+                -s "$variant.md" \
+                -t html \
+                --css=cv.css \
+                --embed-resources \
+                --metadata pagetitle="$FILENAME-$variant" \
+                "${args[@]}" \
+                -o "dist/$FILENAME-$variant.$format"
+            done
+          done
 
       - name: Deploy
         uses: appleboy/scp-action@v1
