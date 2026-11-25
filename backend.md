@@ -1,11 +1,11 @@
 
 # Matias Guzman
 
-**Senior Backend Engineer**
+**Senior Backend Engineer**  
 [matiasguzman@posteo.com](mailto\:matiasguzman@posteo.com) · Based in Chile · Open to relocation to Ireland
 
-**LinkedIn:** [linkedin.com/in/matiasguzlop](https://linkedin.com/in/matiasguzlop)
-**GitHub:** [github.com/matiasguzlop](https://github.com/matiasguzlop)
+**LinkedIn:** [linkedin.com/in/matiasguzlop](https://linkedin.com/in/matiasguzlop)  
+**GitHub:** [github.com/matiasguzlop](https://github.com/matiasguzlop)  
 **Online CV:** [matiasguzlop.dev/cv/CV_Matias_Guzman-backend.html](https://matiasguzlop.dev/cv/CV_Matias_Guzman-backend.html)
 
 ## Professional Summary
